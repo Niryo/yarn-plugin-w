@@ -1,0 +1,10 @@
+.idea
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+version.ts
+node_modules
+dist

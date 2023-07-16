@@ -1,0 +1,29 @@
+{
+  "name": "yarn-plugin-helloworld",
+  "private": true,
+  "scripts": {
+    "build": "builder build plugin",
+    "build:dev": "builder build plugin --no-minify",
+    "clean": "rimraf bundles"
+  },
+  "main": "./src/index.ts",
+  "dependencies": {
+    "@yarnpkg/cli": "^4.0.0-rc.48",
+    "@yarnpkg/core": "^4.0.0-rc.48",
+    "chalk": "^4.0.0",
+    "clipanion": "^3.2.1",
+    "esbuild": "^0.18.13",
+    "fuse.js": "^6.6.2",
+    "inquirer": "^8.0.0",
+    "inquirer-autocomplete-prompt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@yarnpkg/builder": "^4.0.0-rc.48",
+    "rimraf": "5.0.0",
+    "typescript": "5.2.0-beta"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
