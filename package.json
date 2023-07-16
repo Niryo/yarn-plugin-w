@@ -1,5 +1,5 @@
 {
-  "name": "yarn-plugin-helloworld",
+  "name": "yarn-plugin-w",
   "private": true,
   "scripts": {
     "build": "builder build plugin",

@@ -8,7 +8,7 @@ import inquirerPrompt from 'inquirer-autocomplete-prompt';
 import Fuse from 'fuse.js';
 import fs from 'fs';
 
-class HelloWorldCommand extends BaseCommand {
+class YarnPluginW extends BaseCommand {
   static paths = [
     [`w`],
   ];
@@ -114,7 +114,7 @@ async function getWorkspaceName(workspaceNameInput: string | undefined, workspac
 
 const plugin: Plugin = {
   commands: [
-    HelloWorldCommand,
+    YarnPluginW,
   ],
 };
 
