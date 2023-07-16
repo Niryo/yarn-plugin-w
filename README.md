@@ -21,3 +21,5 @@ You can also run `yw` and press enter to get a list of all your workspaces. Then
 #### Example
 
 
+https://github.com/Niryo/yarn-plugin-w/assets/8758348/7e4fd24c-a967-48be-8694-99e8cfa190e8
+
